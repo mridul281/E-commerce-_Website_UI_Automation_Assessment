@@ -1,2 +1,2 @@
-# E-commerce-_Website_UI_Automation_Assesnment
+# E-commerce-_Website_UI_Automation_Assesment
 https://automationexercise.com/
