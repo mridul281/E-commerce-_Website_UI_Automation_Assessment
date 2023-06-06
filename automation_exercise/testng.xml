@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="F:/github/E-commerce-_Website_UI_Automation_Assignment/automation_exercise">
+        <classes>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF001_RegisterUser">
+                <methods>
+                    <include name="TCF001_registerUser"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF002_LoginUserCorrectEmailandpassword">
+                <methods>
+                    <include name="TCF002_loginUserCorrectEmailandpassword"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF003_LoginUserWithIncorrectMailAndPassword">
+                <methods>
+                    <include name="TCF003_loginUserWithIncorrectMailAndPassword"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF004_LogoutUser">
+                <methods>
+                    <include name="TCF004_logoutUser"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF005_RegisterUserWithExistingEmail">
+                <methods>
+                    <include name="TCF005_registerUserWithExistingEmail"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF006_ContactUsForm">
+                <methods><include name="TCF006_contactUsForm"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF007_VerifyTestCasesPage">
+                <methods>
+                    <include name="TCF007_verifyTestCasesPage"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF008_VerifyAllProductsAndProductDetail">
+                <methods>
+                    <include name="TCF008_verifyAllProductsAndProductDetail"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF009_SearchProduct">
+                <methods>
+                    <include name="TCF009_searchProduct"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF010_VerifySubscriptionInHomePage">
+                <methods>
+                    <include name="TCF010_verifySubscriptionInHomePage"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF011_VerifySubscriptionInCartPage">
+                <methods>
+                    <include name="TCF011_verifySubscriptionInCartPage"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF012_AddProductsInCart">
+                <methods>
+                    <include name="TCF012_addProductsInCart"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF013_VerifyProductQuantityInCart">
+                <methods>
+                    <include name="TCF013_verifyProductQuantityInCart"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF014_PlaceOrder_RegisterWhile_Checkout">
+                <methods>
+                    <include name="TCF014_placeOrder_RegisterWhile_Checkout"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF017_RemoveProductsFromCart">
+                <methods>
+                    <include name="TCF017_removeProductsFromCart"/>
+                </methods>
+            </class>
+            <class name="com.internet.automation_exercise.testCasesFiles.TCF018_ViewCategoryProducts">
+                <methods>
+                    <include name="TCF018_ViewCategoryProducts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
